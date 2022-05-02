@@ -12,7 +12,7 @@
 
 # JWT token
 
-Hardcoding the token-
+Hardcoding the token- <br>
 => Visit 'https://jwt.io/' and create your own JWT token.
 
 => Set the token in session/local storage.
@@ -21,6 +21,6 @@ Hardcoding the token-
 
 # Routes
 
-/ => Home page
-/form => add webseries detail
-/overview => to view the details of webseries
+/ => Home page<br>
+/form => add webseries detail<br>
+/overview => to view the details of webseries<br>
