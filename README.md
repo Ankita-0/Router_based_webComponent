@@ -27,4 +27,4 @@ Hardcoding the token- <br>
 
 # Localization
 
-The content is localized and can be translate to 3 languages( english, french, german)<br>
+The content is localized and it can be translated to 3 languages( english, french, german)<br>
