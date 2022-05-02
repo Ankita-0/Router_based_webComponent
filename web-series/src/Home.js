@@ -1,4 +1,3 @@
-import '@lion/tabs/define';
 import { LitElement, html, css } from 'lit';
 
 export class Home extends LitElement {
@@ -6,9 +5,8 @@ export class Home extends LitElement {
     static get styles() {
         return css`
         div {
-            background-color:blueviolet;
             color:azure;
-            height:30px;
+            font-size:10vw;
         }
         `;
     }
@@ -21,4 +19,4 @@ export class Home extends LitElement {
         `;  
     }
 }        
-customElements.define('web-series-home', Webseries);
+customElements.define('web-series-home', Home);

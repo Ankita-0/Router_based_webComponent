@@ -46,22 +46,16 @@ export class Webseries extends LocalizeMixin(LitElement) {
 
     render () {
         return html`
-        <lion-tabs>
-          <button slot="tab" class = "formbtn">Web Series Form</button>
-          <p slot="panel">
-            <web-series-form></web-series-form>
-            </p>
-          <button slot="tab" class = "overviewbtn">Web Series Overview</button>
-            <p slot="panel">       
-                <web-series-overview .data=${this.series} class="DynamicCards"> </web-series-overview>
-            </p>
-        </lion-tabs>
+        <web-series-overview .data=${this.series} class="DynamicCards"> </web-series-overview>
         <div class = "switch_lang">
         ${localize.msg('lang-demo:translateTo')} :: 
             <lion-button id="en" @click = ${()=>this._switchToEnglish()}> English </lion-button>
             <lion-button id="fr" @click = ${()=>this._switchToFrench()}> French </lion-button>
             <lion-button id="de" @click = ${()=>this._switchToGerman()}> German </lion-button>
         </div>
+        <!--<script type="module" src="./src/WebSeriesOverview.js"></script>
+        <script type="module" src="./src/CardComponent.js"></script>-->
+      
         `;  
     }
 
