@@ -19,7 +19,7 @@ Hardcoding the token-
 
 => Retrieve the token from session/local storage and sent it in the headers of the request at the time of sending the request.
 
-#Routes
+# Routes
 
 / => Home page
 /form => add webseries detail
