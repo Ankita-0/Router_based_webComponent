@@ -24,3 +24,7 @@ Hardcoding the token- <br>
 / => Home page<br>
 /form => add webseries detail<br>
 /overview => to view the details of webseries<br>
+
+# Localization
+
+The content is localized and can be translate to 3 languages( english, french, german)<br>

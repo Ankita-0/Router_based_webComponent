@@ -103,12 +103,12 @@ export class WebSeriesForm extends LocalizeMixin(LitElement){
             </strong></lion-button-submit>
             </form>
             </lion-form>
-            <div class = "switch_lang">
+           <!-- <div class = "switch_lang">
             ${localize.msg('lang-demo:translateTo')} :: 
                 <lion-button id="en" @click = ${()=>this._switchToEnglish()}> English </lion-button>
                 <lion-button id="fr" @click = ${()=>this._switchToFrench()}> French </lion-button>
                 <lion-button id="de" @click = ${()=>this._switchToGerman()}> German </lion-button>
-            </div>
+            </div>-->
         `;
     }
 
@@ -141,17 +141,17 @@ export class WebSeriesForm extends LocalizeMixin(LitElement){
         }
     }
     
-    _switchToEnglish(){
-        localize.locale = 'en-GB';
-    }
+    // _switchToEnglish(){
+    //     localize.locale = 'en-GB';
+    // }
 
-    _switchToGerman(){
-        localize.locale = 'de-DE';
-    }
+    // _switchToGerman(){
+    //     localize.locale = 'de-DE';
+    // }
 
-    _switchToFrench(){
-        localize.locale = 'fr-FR';
-    }
+    // _switchToFrench(){
+    //     localize.locale = 'fr-FR';
+    // }
 }
 
 export class NonNumeric extends Validator{
