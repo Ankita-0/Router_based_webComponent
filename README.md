@@ -17,4 +17,10 @@ Hardcoding the token-
 
 => Set the token in session/local storage.
 
-=> Retrieve the token from session/local storage and sent it in the headers of the request at the time of sending the request. 
+=> Retrieve the token from session/local storage and sent it in the headers of the request at the time of sending the request.
+
+#Routes
+
+/ => Home page
+/form => add webseries detail
+/overview => to view the details of webseries
