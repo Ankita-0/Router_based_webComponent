@@ -7,8 +7,18 @@ body {
     background-color:rgb(150, 150, 150);
 }
 
-li {
+li, a {
+    text-decoration: none;
     display: inline-block;
+    color: azure;
+    font-size: 2vw;
+    background-color: black;
+    padding: 2px;
+}
+
+li:hover, a:hover {
+    background-color: rgb(150, 150, 150);
+    color: rgb(0, 255, 255);
 }
 
 h1 {   
